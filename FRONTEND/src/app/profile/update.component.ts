@@ -74,4 +74,4 @@ export class UpdateComponent implements OnInit {
                     });
                 }
             }
-        }
+}
