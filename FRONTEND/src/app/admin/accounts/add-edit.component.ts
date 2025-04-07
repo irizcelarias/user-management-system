@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core'; 
 import { Router, ActivatedRoute } from '@angular/router'; 
-import { UntypedFormBuilder, Untyped FormGroup, Validators } from '@angular/forms'; 
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms'; 
 import { first } from 'rxjs/operators'; 
 
 import { AccountService, AlertService } from '@app/_services'; 
