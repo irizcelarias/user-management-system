@@ -5,6 +5,7 @@ import { first } from 'rxjs/operators';
 
 import { AccountService, AlertService } from '@app/_services'; 
 import { MustMatch } from '@app/_helpers'; 
+
 @Component({ templateUrl: 'add-edit.component.html' }) 
 export class AddEditComponent implements OnInit { 
     form: UntypedFormGroup; 
@@ -80,7 +81,8 @@ export class AddEditComponent implements OnInit {
                 }); 
         }
 
-        private updateAccount() { 
+        private updateAccount() 
+        { 
             this.accountService.update(this.id, this.form.value) 
                 .pipe(first()) 
                 .subscribe({ 
