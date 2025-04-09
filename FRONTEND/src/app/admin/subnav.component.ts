@@ -1,5 +1,4 @@
-<nav class="admin-nav navbar navbar-expand navbar-light">
-    <div class="navbar-nav">
-        <a routerLink="accounts" routerLinkActive="active" class="nav-item nav-link">Accounts</a>
-    </div>
-</nav>
+import { Component } from '@angular/core';
+
+@Component({ templateUrl: 'subnav.component.html'})
+export class SubnavComponent { }
